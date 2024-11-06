@@ -17,6 +17,8 @@ return GeneralConfig::create()
     // Prevent generated URLs from including "index.php"
     ->omitScriptNameInUrls()
     // Preload Single entries as Twig variables
+    ->devMode(App::env('DEV_MODE') ?? false)
+    // Preload Single entries as Twig variables
     ->preloadSingles()
     // Prevent user enumeration attacks
     ->preventUserEnumeration()

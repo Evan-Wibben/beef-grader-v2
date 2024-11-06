@@ -1,0 +1,30 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - 5ad993f4-0b83-4c47-bb32-5529fd1f0722 # Standard Page
+handle: pages
+maxAuthors: 1
+name: Pages
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  40e607af-3143-418f-995f-d2fe3e03625f: # react-in-craft
+    enabledByDefault: true
+    hasUrls: true
+    template: pages/_entry.twig
+    uriFormat: 'pages/{slug}'
+structure:
+  maxLevels: null
+  uid: d89dc039-169f-48ad-aaa8-b0f68eb311d8
+type: structure

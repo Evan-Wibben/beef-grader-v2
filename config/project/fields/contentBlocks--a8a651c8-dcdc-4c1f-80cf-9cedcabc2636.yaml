@@ -1,0 +1,20 @@
+columnSuffix: null
+handle: contentBlocks
+instructions: null
+name: 'Content Blocks'
+searchable: false
+settings:
+  createButtonLabel: null
+  entryTypes:
+    - b17a885b-b5ee-4642-9289-add1eec724b3 # Single Image
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: 50
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: cards
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

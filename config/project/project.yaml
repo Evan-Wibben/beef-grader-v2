@@ -1,13 +1,24 @@
-dateModified: 1730909243
+dateModified: 1730924873
 email:
   fromEmail: evan.wibben@paulsenmarketing.com
   fromName: react-in-craft
   transportType: craft\mail\transportadapters\Sendmail
 meta:
   __names__:
+    0efc570b-b79b-413c-af0d-b919527ba0ac: 'Home Page' # Home Page
+    5ad993f4-0b83-4c47-bb32-5529fd1f0722: 'Standard Page' # Standard Page
+    9cce27e4-04db-4300-b9a0-b0af68269519: Image # Image
     40e607af-3143-418f-995f-d2fe3e03625f: react-in-craft # react-in-craft
     498c661e-dd80-4bdd-ab22-81c9f3e327b9: 'Public Schema' # Public Schema
     a1c018b9-7c7b-4ca9-b25c-a137e5b23170: react-in-craft # react-in-craft
+    a8a651c8-dcdc-4c1f-80cf-9cedcabc2636: 'Content Blocks' # Content Blocks
+    b17a885b-b5ee-4642-9289-add1eec724b3: 'Single Image' # Single Image
+    cb773c7d-e388-4ba0-bdff-feee2ee72078: Pages # Pages
+plugins:
+  vite:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
 system:
   edition: solo
   live: true
