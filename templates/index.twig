@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en-US" data-theme="light">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8" />
+    <title>Fresh Template Time</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <meta name="referrer" content="origin-when-cross-origin" />
+    {{ craft.vite.script("./src/main.ts", false) }}
+</head>
+
+
+<body>
+{% include '_components/blocks/_navigation.twig' %}
+{#{% include '_components/blocks/_megaNavigation.twig' %}#}
+{% include '_components/blocks/_breadcrumbs.twig' %}
+{% block body %}
+
+{% endblock body %}
+{% include '_components/blocks/_footer.twig' %}
+<script>0</script>
+</body>
+</html>

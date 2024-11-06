@@ -1,0 +1,23 @@
+dateModified: 1730909243
+email:
+  fromEmail: evan.wibben@paulsenmarketing.com
+  fromName: react-in-craft
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    40e607af-3143-418f-995f-d2fe3e03625f: react-in-craft # react-in-craft
+    498c661e-dd80-4bdd-ab22-81c9f3e327b9: 'Public Schema' # Public Schema
+    a1c018b9-7c7b-4ca9-b25c-a137e5b23170: react-in-craft # react-in-craft
+system:
+  edition: solo
+  live: true
+  name: react-in-craft
+  schemaVersion: 5.3.0.2
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  require2fa: false
+  requireEmailVerification: true

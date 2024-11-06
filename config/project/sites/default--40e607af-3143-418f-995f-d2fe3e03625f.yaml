@@ -1,0 +1,8 @@
+baseUrl: $PRIMARY_SITE_URL
+handle: default
+hasUrls: true
+language: en-US
+name: react-in-craft
+primary: true
+siteGroup: a1c018b9-7c7b-4ca9-b25c-a137e5b23170 # react-in-craft
+sortOrder: 1

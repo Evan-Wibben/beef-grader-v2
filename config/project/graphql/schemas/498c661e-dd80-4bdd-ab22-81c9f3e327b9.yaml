@@ -1,0 +1,4 @@
+isPublic: true
+name: 'Public Schema'
+scope:
+  - 'sites.40e607af-3143-418f-995f-d2fe3e03625f:read' # react-in-craft
